@@ -11,8 +11,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Export Data Using Smartcat API
-        uses: action.yml
+      - name: Smartcat Translation Import/Export
+        uses: elreco/smartcat@1.0.2
         with:
           actionType: 'export'
           accountID: 'c5a662fe-66ae-4793-ae1a-9e386d03a7a0'
